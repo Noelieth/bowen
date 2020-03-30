@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Locales | BOWEN</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link href="css/select2.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+	
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<header class="header-section">
+		<div class="container">
+			<ul class="main-menu-left site-menu-style nav">                        
+				<li>
+					<a href="index.html">FW19</a>
+					<div class="megamenu">
+						<div class="nav-column">
+							<ul> 						
+								<li class="title">Principal</li> 						
+								<li><a href="#">THE BOWEN ORIGINALS</a></li> 						
+								<li><a href="#">NOVEDADES</a></li> 						
+								<li><a href="#">ONLINE EXCLUSIVES</a></li> 						
+							</ul> 				
+						</div>
+						<div class="nav-column small-cat"> 					
+							<ul> 						
+								<li class="title">Capsula</li> 						
+								<li><a href="#">HAWAII</a></li> 						
+								<li><a href="#">IMPALA</a></li> 						
+							</ul> 				
+						</div> 				
+						<div class="nav-column varios"> 					
+							<ul> 						
+								<li class="title">Categorias</li> 						
+								<li><a href="#">REMERAS</a></li> 						
+								<li><a href="#">BUZOS</a></li> 						
+								<li><a href="#">CAMPERAS</a></li>					
+							</ul>
+							<ul> 						
+								<li class="title-no">Categorias</li> 						
+								<li><a href="#">DENIM</a></li> 						
+								<li><a href="#">CAMISAS</a></li> 						
+								<li><a href="#">SWEATERS</a></li>					
+							</ul>
+							<ul> 						
+								<li class="title-no">Categorias</li> 						
+								<li><a href="#">ABRIGOS</a></li> 						
+								<li><a href="#">PANTALONES</a></li> 						
+								<li><a href="#">SASTRERIA</a></li>					
+							</ul> 
+							<ul> 						
+								<li class="title-no">Categorias</li> 						
+								<li><a href="#">CALZADO</a></li> 						
+								<li><a href="#">ACCESORIOS</a></li> 						
+								<li><a href="#">UNDERWEAR</a></li>					
+							</ul>				
+						</div> 
+						<div class="nav-column"> 					
+							<ul> 						
+								<li class="title">-</li> 						
+								<li><a href="#" class="find-look">FIND YOUR LOOK!</a></li> 						
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="listado.html">JEANS</a></li>
+				<li><a href="#" class="active">LOCALES</a></li>
+				<li><a href="#" class="pwrsale">PWR SALE!</a></li>
+			</ul>
+			<a href="index.html" class="site-logo">
+				<img src="img/logo.svg" alt="">
+			</a>
+			<ul class="main-menu-right site-menu-style">
+				<li class="search-switch"><a>BUSQUEDA</a></li>
+				<li><a href="#">CUENTA </a></li>
+				<li><a href="carrito.html">CARRITO</a></li>
+				<li><a href="#">AYUDA</a></li>
+			</ul>
+			<ul class="menu-responsive">
+				<li>
+					<a href="#" class="menu-toggle titlem">Spring Summer 2020 <img src="img/arrow_down.svg" class="arrowd"></a>
+					<ul class="menu_selection">
+						<li><a href="#">The Bowen Originals</a></li>
+						<li><a href="#">Novedades</a></li>
+						<li><a href="#">Online Exclusives</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="menu-toggle titlem">Capsule Collection <img src="img/arrow_down.svg" class="arrowd"></a>
+					<ul class="menu_selection">
+						<li class="submenu_selection">
+							<a href="#" class="menu-toggle">Hawaii <img src="img/arrow_down.svg" class="arrowd"></a>
+							<ul class="menu-img">
+								<li>
+									<a href="#"><img src="img/icon-hawaii.svg"/></a>
+									<a href="#" class="med"><img src="img/icon-hawaii2.svg"/></a>
+									<a href="#"><img src="img/icon-hawaii3.svg"/></a>
+								</li>
+							</ul>
+						</li>
+						<li class="submenu_selection">
+							<a href="#" class="menu-toggle">Impala <img src="img/arrow_down.svg" class="arrowd"></a>
+							<ul class="menu-img">
+								<li>
+									<a href="#"><img src="img/icon-impala.svg"/></a>
+									<a href="#" class="med"><img src="img/icon-impala2.svg"/></a>
+									<a href="#"><img src="img/icon-impala3.svg"/></a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="menu-toggle titlem">Jeans <img src="img/arrow_down.svg" class="arrowd"></a>
+					<ul class="menu_selection">
+						<li><a href="#">High Waist</a></li>
+						<li><a href="#">Super Skinny</a></li>
+						<li><a href="#">Regular Cut</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="pwrsale titlem">PWR Sale! <img src="img/bolt.svg" class="arrowd"></a>
+				</li>
+				<li>
+					<a href="#" class="find-look titlem">Find Your Look! <img src="img/light.svg" class="arrowd"></a>
+				</li>
+				<li>
+					<a href="#" class="titlem">Locales <img src="img/location.svg" class="arrowd"></a>
+				</li>
+				<li>
+					<a href="#" class="titlem">Cuenta</a>
+				</li>
+				<li>
+					<a href="#" class="titlem">Ayuda</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<section class="locales-section">
+		<div class="jeans-header">
+			<div class="local-img">
+				<div class="hs-content">
+					<div class="container">
+						<h2>Locales</h2>
+						<h6>Encontrá tu local más cercano</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="local-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-sm-6">
+					<div class="provincias">
+						<select class="select_provincias">
+							<option value=''></option>
+							<option value='0'>Ver todos los locales</option>
+							<option value='5'>
+							Buenos Aires
+							</option>
+							<option value='26'>
+							Capital Federal
+							</option>
+							<option value='24'>
+							Catamarca
+							</option>
+							<option value='23'>
+							Chaco
+							</option>
+							<option value='22'>
+							Chubut
+							</option>
+							<option value='21'>
+							Córdoba
+							</option>
+							<option value='4'>
+							Corrientes
+							</option>
+							<option value='3'>
+							Entre Ríos
+							</option>
+							<option value='2'>
+							Formosa
+							</option>
+							<option value='20'>
+							Jujuy
+							</option>
+							<option value='19'>
+							La Pampa
+							</option>
+							<option value='18'>
+							La Rioja
+							</option>
+							<option value='17'>
+							Mendoza
+							</option>
+							<option value='1'>
+							Misiones
+							</option>
+							<option value='16'>
+							Neuquén
+							</option>
+							<option value='15'>
+							Río Negro
+							</option>
+							<option value='14'>
+							Salta
+							</option>
+							<option value='13'>
+							San Juan
+							</option>
+							<option value='12'>
+							San Luis
+							</option>
+							<option value='11'>
+							Santa Cruz
+							</option>
+							<option value='10'>
+							Santa Fe
+							</option>
+							<option value='9'>
+							Santiago del Estero
+							</option>
+							<option value='8'>
+							Tierra del Fuego
+							</option>
+							<option value='25'>
+							Tierra del Fuego, Antártida e Islas del Atlántico Sur
+							</option>
+							<option value='7'>
+							Tucumán
+							</option>
+						</select>
+						<ul class="stores__list map-pick map-shop">
+							<li class="stores__list-item" data-id='7' data-state='26' id='li_7'>
+								<p class="title">Palermo Soho</p>
+								<p class="location">Gurruchaga 1606, CABA, Argentina</p>
+								<p class="schedules">11 4833 1374</p>
+							</li>
+							<li class='stores__list-item active' data-id='2' data-state='26' id='li_2'>
+								<p class="title">Alto Palermo</p>
+								<p class="location">Av. Santa Fe 3253, CABA, Argentina</p>
+								<p class="schedules">11 5777 8254</p>
+							</li>
+							<li class="stores__list-item" data-id='5' data-state='26' id='li_5'>
+								<p class="title">Galerias Pacifico</p>
+								<p class="location">Florida 725, CABA, Argentina</p>
+								<p class="schedules">11 4313 6482</p>
+							</li>
+							<li class="stores__list-item" data-id='8' data-state='26' id='li_8'>
+								<p class="title">Devoto Shopping</p>
+								<p class="location">José Pedro Varela 4866, CABA, Argentina</p>
+								<p class="schedules">11 4019 6235</p>
+							</li>
+							<li class="stores__list-item" data-id='4' data-state='5' id='li_4'>
+								<p class="title">Dot Baires Shopping</p>
+								<p class="location">Vedia 3626, CABA, Buenos Aires, Argentina</p>
+								<p class="schedules">11 5777 9631</p>
+							</li>
+							<li class="stores__list-item" data-id='3' data-state='5' id='li_3'>
+								<p class="title">Unicenter Shopping</p>
+								<p class="location">Paraná 3745, Martínez, Buenos Aires, Argentina</p>
+								<p class="schedules">11 4717 4997</p>
+							</li>
+							<li class="stores__list-item" data-id='29' data-state='5' id='li_29'>
+								<p class="title">La Plata </p>
+								<p class="location">Calle 48 680, La Plata, Buenos Aires, Argentina</p>
+								<p class="schedules">0221 422 9821</p>
+							</li>
+							<li class="stores__list-item" data-id='16' data-state='5' id='li_16'>
+								<p class="title">Mar del Plata</p>
+								<p class="location">Rawson 1381, Mar del Plata, Buenos Aires, Argentina</p>
+								<p class="schedules">0223 44519582</p>
+							</li>
+							<li class="stores__list-item" data-id='17' data-state='5' id='li_17'>
+								<p class="title">Pinamar</p>
+								<p class="location">Avenida Constitución 290, Pinamar, Buenos Aires, Argentina</p>
+								<p class="schedules">02254 484790</p>
+							</li>
+							<li class="stores__list-item" data-id='14' data-state='5' id='li_14'>
+								<p class="title">Cariló</p>
+								<p class="location">Divisadero 1461, Cariló, Buenos Aires, Argentina</p>
+								<p class="schedules">02254 572868</p>
+							</li>
+							<li class="stores__list-item" data-id='20' data-state='10' id='li_20'>
+								<p class="title">Alto Rosario Shopping</p>
+								<p class="location">Junín 501, Rosario, Santa Fe, Argentina</p>
+								<p class="schedules">0341 4106587</p>
+							</li>
+							<li class="stores__list-item" data-id='24' data-state='21' id='li_24'>
+								<p class="title">Villa María</p>
+								<p class="location">Avenida Hipólito Yrigoyen 57, Villa María, Córdoba, Argentina</p>
+								<p class="schedules">0353-4523413</p>
+							</li>
+							<li class="stores__list-item" data-id='21' data-state='21' id='li_21'>
+								<p class="title">Patio Olmos Shopping</p>
+								<p class="location">Bulevar San Juan 112, Córdoba, Argentina</p>
+								<p class="schedules">0351 5704171</p>
+							</li>
+							<li class="stores__list-item" data-id='23' data-state='21' id='li_23'>
+								<p class="title">Códoba Shopping</p>
+								<p class="location">José de Goyechea 2851, Córdoba, Argentina</p>
+								<p class="schedules">0351 4205063</p>
+							</li>
+							<li class="stores__list-item" data-id='22' data-state='21' id='li_22'>
+								<p class="title">Villa Allende Shopping</p>
+								<p class="location">Av. Río de Janeiro 1725, Villa Allende, Córdoba, Argentina</p>
+								<p class="schedules">03543 438379</p>
+							</li>
+							<li class="stores__list-item" data-id='28' data-state='14' id='li_28'>
+								<p class="title">Portal Salta Shopping</p>
+								<p class="location">20 de Febrero 1437, Salta, Argentina</p>
+								<p class="schedules">0387 4219430</p>
+							</li>
+							<li class="stores__list-item" data-id='27' data-state='7' id='li_27'>
+								<p class="title">Tucumán</p>
+								<p class="location">25 de Mayo de 1810 430, San Miguel de Tucumán, Tucumán, Argentina</p>
+								<p class="schedules">0381 4975261</p>
+							</li>
+							<li class="stores__list-item" data-id='26' data-state='12' id='li_26'>
+								<p class="title">Merlo, San Luis</p>
+								<p class="location">Av. del Sol 678, Merlo, San Luis, Argentina</p>
+								<p class="schedules">02656 47559</p>
+							</li>
+							<li class="stores__list-item" data-id='19' data-state='17' id='li_19'>
+								<p class="title">Peatonal Sarmiento Mendoza</p>
+								<p class="location">Paseo Sarmiento 110, Mendoza, Argentina</p>
+								<p class="schedules">0261 420 4069</p>
+							</li>
+							<li class="stores__list-item" data-id='18' data-state='17' id='li_18'>
+								<p class="title">Mendoza Plaza</p>
+								<p class="location">Acceso Este Lateral Norte 3280, Mendoza, Argentina</p>
+								<p class="schedules">0261 4490140</p>
+							</li>
+							<li class="stores__list-item" data-id='10' data-state='26' id='li_10'>
+								<p class="title">Distrito Arcos Palermo (Outlet)</p>
+								<p class="location">Paraguay 4979, CABA, Argentina</p>
+								<p class="schedules">11 5789 2852</p>
+							</li>
+							<li class="stores__list-item" data-id='12' data-state='5' id='li_12'>
+								<p class="title">Soleil Shopping (Outlet)</p>
+								<p class="location">Soleil Factory, San Isidro, Buenos Aires, Argentina</p>
+								<p class="schedules">11 4007 2422</p>
+							</li>
+							<li class="stores__list-item" data-id='9' data-state='5' id='li_9'>
+								<p class="title">Martínez (Outlet)</p>
+								<p class="location">Hipólito Yrigoyen 2630, Martínez, Buenos Aires, Argentina</p>
+								<p class="schedules">11 4836 3331</p>
+							</li>
+							<li class="stores__list-item" data-id='6' data-state='26' id='li_6'>
+								<p class="title">Abasto Shopping (Outlet)</p>
+								<p class="location">Av. Corrientes 3247, Buenos Aires, Argentina</p>
+								<p class="schedules">11 4959 3629</p>
+							</li>
+							<li class="stores__empty hidden">No se encontraron locales</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 col-sm-6">
+					<div class="map_provincias" id="map__provincias">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<footer class="footer-area section_gap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 single-footer-widget">
+          <ul>
+            <li><a href="#" class="bold">ATENCIÓN AL CLIENTE</a></li>
+            <li><a href="#">CONTACTO</a></li>
+            <li><a href="#">MÉTODOS DE ENVÍO</a></li>
+            <li><a href="#">CAMBIOS Y DEVOLUCIONES</a></li>
+            <li><a href="#">SEGURIDAD</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 single-footer-widget">
+          <ul>
+            <li><a href="#" class="bold">LA EMPRESA</a></li>
+            <li><a href="#">LA EMPRESA</a></li>
+            <li><a href="#">LOCALES</a></li>
+            <li><a href="#">POLÍTICAS DE PRIVACIDAD</a></li>
+            <li><a href="#">TÉRMINOS Y CONDICIONES</a></li>
+            <li><a href="#">GUÍA DE TALLES</a></li>
+            <li><a href="#">FAQS</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 single-footer-widget">
+          <ul>
+            <li><a href="#" class="bold">CONTACTANOS</a></li>
+            <li><a href="#">TEL: +54 11 5218 5233</a></li>
+            <li class="hidden-xs"><a href="#">ATENCIONALCLIENTE@BOWEN.COM.AR</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 single-footer-widget">
+          <ul>
+            <li><a href="#" class="bold">FOLLOW US</a></li>
+            <li><a href="#">FACEBOOK</a></li>
+            <li><a href="#">INSTAGRAM</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 single-footer-widget hidden-xs">
+          <ul><li><a href="#">NEWSLETTER</a></li></ul>
+          <p>INFORMATE SOBRE TODOS LOS NUEVOS PRODUCTOS, PROMOCIONES Y NOVEDADES DIRECTO A TU INBOX.</p>
+          <div class="form-wrap" id="mc_embed_signup">
+            <form target="_blank" action="" method="get" class="form-inline" novalidate="true">
+              <input class="form-control email" name="EMAIL" placeholder="INGRESÁ TU EMAIL" onfocus="this.placeholder = ''" onblur="this.placeholder = 'INGRESÁ TU EMAIL '" required="" type="email">
+              <button class="click-btn btn btn-default">ENVIAR</button>
+              <div style="position: absolute; left: -5000px;">
+                <input name="" tabindex="-1" value="" type="text">
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+	<!-- Search model -->
+	<div class="search-model">
+		<div class="d-flex justify-content-center">
+			<div class="search-close-switch"><img src="img/close_filter.svg" class="close-search"></div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="BUSCAR">
+			</form>
+		</div>
+	</div>
+	<!-- Search model end -->
+	       
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+	<script type="text/javascript">
+      	$(".select_provincias").select2({
+      		placeholder: "SELECCIONÁ TU PROVINCIA",
+    		allowClear: true
+      	});
+
+      	var map = L.map('map__provincias').setView([51.505, -0.09], 13);
+
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+		L.marker([51.5, -0.09]).addTo(map)
+		    .bindPopup('<b>Alto Palermo</b><br>Av. Santa Fe 3253, CABA, Argentina.')
+		    .openPopup();
+	</script>
+	</body>
+</html>
