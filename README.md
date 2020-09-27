@@ -1,5 +1,3 @@
-# bowen
-E-commerce page to bowen store
 # BOWEN
 
 BOWEN is a e-commerce page to [bowen](https://www.bowen.com.ar/) store. This project is based on HTML,JavaScript, JQuery and Bootstrap.
