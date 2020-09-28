@@ -28,7 +28,7 @@ localhost/bowen
 * [JavaScript](https://www.javascript.com/) - client-side language
 * [Bootstrap](https://getbootstrap.com/) - a css framework
 
-## Autores ✒️
+## Author ✒️
 
 * **Noelieth Longart** - [noeliethlongart](https://www.behance.net/noeliethlongart)
 
